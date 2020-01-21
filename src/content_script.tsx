@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const root = document.createElement('div');
-root.style = "position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 1000000";
+(root as any).style = "position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 1000000";
 document.body.appendChild(root);
 ReactDOM.render(<App />, root);
 
