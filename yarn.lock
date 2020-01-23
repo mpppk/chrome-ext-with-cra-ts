@@ -1199,9 +1199,9 @@
     "@testing-library/dom" "^6.11.0"
     "@types/testing-library__react" "^9.1.2"
 
-"@testing-library/user-event@8.0.3":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-8.0.3.tgz#c3e304d2692b797ff0e3ced53c0597d341bb868b"
+"@testing-library/user-event@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-8.0.4.tgz#760c34eeafacc04f6ea41268c5b3e15dfc3f4371"
 
 "@types/babel__core@^7.1.0":
   version "7.1.3"
