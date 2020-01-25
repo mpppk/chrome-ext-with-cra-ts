@@ -3,6 +3,9 @@
   "manifest_version": 2,
   "version": "1.0.0",
   "description": "test-extension | サンプルアプリ",
+  "icons": {
+    "128": "logo192.png"
+  },
   "permissions": [
     "storage"
   ],
