@@ -9954,9 +9954,9 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-webextension-polyfill-ts@0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/webextension-polyfill-ts/-/webextension-polyfill-ts-0.12.0.tgz#4b16c6b2bc21b267b0770af9e29fb5eea0c690de"
+webextension-polyfill-ts@0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/webextension-polyfill-ts/-/webextension-polyfill-ts-0.13.0.tgz#2a55837fd626736758523cdae6c10ac8b6684edc"
   dependencies:
     webextension-polyfill "^0.6.0"
 
