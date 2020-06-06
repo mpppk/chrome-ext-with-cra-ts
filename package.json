@@ -44,7 +44,7 @@
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
     "typescript": "3.9.5",
-    "webextension-polyfill-ts": "0.16.0"
+    "webextension-polyfill-ts": "0.17.0"
   },
   "husky": {
     "hooks": {
