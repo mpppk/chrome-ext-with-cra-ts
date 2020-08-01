@@ -19,7 +19,7 @@
     }
   ],
   "background": {
-    "scripts": ["/static/js/background_script.js"]
+    "scripts": ["/static/js/background_script.js", "/static/js/hot_reload.js"]
   },
   "options_page": "index.html"
 }
