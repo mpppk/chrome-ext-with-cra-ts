@@ -16,18 +16,18 @@ const main = async (): Promise<any> => {
   if (extInfo.installType === 'development') {
     chrome.runtime.getPackageDirectoryEntry(async (dir) => {
       let lastModified: number | null = null;
-      while (true) {
-        dir.getFile('reload', { create: false }, (entry) => {
-          entry.file((file) => {
-            if (lastModified === null) {
-              lastModified = file.lastModified;
-            } else if (lastModified < file.lastModified) {
-              reload();
-            }
-          });
-        }, () => {
-          lastModified = -1;
+      const successCallback = (entry: FileEntry) => {
+        entry.file((file) => {
+          if (lastModified === null) {
+            lastModified = file.lastModified;
+          } else if (lastModified < file.lastModified) {
+            reload();
+          }
         });
+      }
+      const errCallback = () => lastModified = -1;
+      while (true) {
+        dir.getFile('reload', { create: false }, successCallback, errCallback);
         await sleep(1000);
       }
     });
