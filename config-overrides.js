@@ -7,7 +7,6 @@ module.exports = {
     config.entry = {
       main: [path.resolve("src/index")],
       content_script: [path.resolve("src/content_script")],
-      background_script: [path.resolve("src/background_script")],
       hot_reload: [path.resolve("src/hot_reload")]
     };
 
