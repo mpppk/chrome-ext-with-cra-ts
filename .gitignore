@@ -11,6 +11,9 @@
 # production
 /build
 
+# percel
+.cache/
+
 # misc
 .DS_Store
 .env.local
