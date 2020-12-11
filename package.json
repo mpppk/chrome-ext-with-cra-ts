@@ -38,7 +38,7 @@
     ]
   },
   "devDependencies": {
-    "@types/chrome": "0.0.126",
+    "@types/chrome": "0.0.127",
     "husky": "4.3.5",
     "parcel-bundler": "1.12.4",
     "prettier": "2.2.1",
