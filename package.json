@@ -41,7 +41,7 @@
     "@types/chrome": "0.0.157",
     "husky": "4.3.8",
     "parcel-bundler": "1.12.5",
-    "prettier": "2.3.2",
+    "prettier": "2.4.0",
     "pretty-quick": "2.0.2",
     "typescript": "3.9.10",
     "webextension-polyfill-ts": "0.26.0"
