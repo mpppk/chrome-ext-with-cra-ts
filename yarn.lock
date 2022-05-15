@@ -1625,10 +1625,10 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/chrome@0.0.168":
-  version "0.0.168"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.168.tgz#e92df6601acc07427845a58b5bc62be4330d9b5f"
-  integrity sha512-kMA+5H9PSO7kEixgFgehp8xxzBV5qR9hyLCCt8j4/BIf5SJXXtVB6ik2uycU8PHgfFtMDgIC5/qQZplifYon2g==
+"@types/chrome@0.0.186":
+  version "0.0.186"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.186.tgz#e6513ccf2021eab90b3313bb60ef272761f1df78"
+  integrity sha512-Ykpf95dbv0resO/PcRF/9vKETOKma5D2sSUKo8mSL1vz03IgVhyHuCrlzbDYMLrXIl9CcyGnYTMG2Zg0WAk62w==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"
